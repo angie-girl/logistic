@@ -1,0 +1,27 @@
+.card {
+    // overflow: hidden;
+    // .card-img-top {
+    //     overflow: hidden;
+    //     max-height: 220px;
+    // }
+    // .card-img-top:hover {
+    //     transform: scale(1.5)
+    // }
+    .wrap-img{
+        overflow: hidden;
+        padding: 0;
+        img {
+            transition-duration: 2s;
+            margin: 0 auto;
+            display: block;
+        }
+        img:hover {
+            transform: scale(1.2);
+            z-index: 0;
+        }
+    }
+    .second-title {
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
