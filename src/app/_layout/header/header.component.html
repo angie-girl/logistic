@@ -1,92 +1,24 @@
-<!-- <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-0">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" [routerLink]="['/']">
-        <img class="logo-img d-inline-block align-text-top" alt="logo" src="../../../assets/images/citrafleet-logo.png" />
-      </a>
-  
-      <button
-        class="navbar-toggler rounded-circle"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center me-3">
-            <a class="nav-link">Kontakt</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-  
-
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
+  <nav class="navbar navbar-expand-lg position-absolute navbar-light bg-transparent w-100">
     <div class="container-fluid">
-        <!-- <a class="navbar-brand d-flex align-items-center" [routerLink]="['/']">
-            <img class="logo-img d-inline-block align-text-top" alt="logo" src="../../../assets/images/citrafleet-logo.png" />
-          </a> -->
-          <a [routerLink]="['/']" class="navbar-brand text-white">SKYLINE <small>LOGISTICS</small></a>
+        <a [routerLink]="['/']" class="navbar-brand"><img class="logo-img" src="../../../assets/images/logo-biale.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-uppercase text-white px-4 active" aria-current="page" href="/">O firmie</a>
+            <a class="nav-link text-uppercase text-white mx-4" [routerLink]="['/o-firmie']" routerLinkActive="active" aria-current="page">O firmie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-uppercase text-white px-4" [routerLink]="['/oferta']">Oferta</a>
+            <a class="nav-link text-uppercase text-white mx-4" [routerLink]="['/oferta']" routerLinkActive="active">Oferta</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link text-uppercase text-white mx-4" [routerLink]="['/dla-klientow']" routerLinkActive="active">Dla klienta</a>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link text-uppercase text-white px-4" [routerLink]="['/dla-klientow']">Dla klienta</a>
+            <a class="nav-link text-uppercase text-white mx-4" [routerLink]="['/kontakt']" routerLinkActive="active">Kontakt</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase text-white px-4" [routerLink]="['/kontakt']">Kontakt</a>
-          </li>
-          <div class="dropdown">
-            <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              PL
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">EN</a></li>
-            </ul>
-          </div>
         </ul>
       </div>
     </div>
   </nav>
-
-
-  <!-- <nav class="navbar fixed-top navbar-light bg-light py-3">
-    <div class="container-fluid">
-        <button class="btn burger px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-          
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sekcje</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <div class=" mt-3">
-                <ul class="list" >
-                  <li class="nav-item"><a class="nav-link text-black" routerLink="/character" data-bs-toggle="offcanvas" data-bs-target=".offcanvas.show">Bohaterowie</a></li>
-                  <li class="nav-item"><a class="nav-link text-black" routerLink="/location" data-bs-toggle="offcanvas" data-bs-target=".offcanvas.show">Lokacje</a></li>
-                  <li class="nav-item"><a class="nav-link text-black" routerLink="/episode" data-bs-toggle="offcanvas" data-bs-target=".offcanvas.show">Odcinki</a></li>
-                </ul>
-              </div>
-            </div>
-        </div>
-
-      <span class="navbar-brand mb-0 mx-0 h1" style="cursor: pointer;">Rick & Morty</span>
-      <button class="btn" aria-disabled="true"></button>
-    </div>
-</nav> -->

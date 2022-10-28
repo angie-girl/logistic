@@ -12,9 +12,10 @@ import { BannerComponent } from './shared/components/banner/banner.component';
 import { ForClientsComponent } from './_pages/for-clients/for-clients.component';
 import { OfferComponent } from './_pages/offer/offer.component';
 import { ContactComponent } from './_pages/contact/contact.component';
+import { AboutUsComponent } from './_pages/about-us/about-us.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, BannerComponent, ForClientsComponent, OfferComponent, ContactComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, BannerComponent, ForClientsComponent, OfferComponent, ContactComponent, AboutUsComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],

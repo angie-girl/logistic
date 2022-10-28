@@ -1,11 +1,17 @@
+.navbar {
+    background-color: #000;
+    z-index: 999;
+}
 .navbar-brand {
     font-size: 26px;
     font-weight: bold;
+    margin: -25px 0;
+    color: rgb(240 199 160);
+    .logo-img {
+        width: calc(6rem + 12vw);
+      }
     small {
         font-size: 16px;
-    }
-    .logo-img {
-      width: calc(3rem + 12vw);
     }
 }
 .navbar-light .navbar-toggler {
@@ -16,7 +22,9 @@
 .nav-link {
     font-weight: 500;
 }
-
+.active {
+    border-bottom: 2px solid #fff;
+}
 
   .navbar {
     // opacity: 0.2;

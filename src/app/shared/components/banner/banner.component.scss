@@ -1,7 +1,7 @@
 .wrap-banner {
 //   padding-bottom: 200px;
   .image {
-    height: 20vh;
+    height: 50vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,9 +12,19 @@
       align-items: flex-end;
       justify-content: center;
     }
+    .back {
+        height: inherit;
+        opacity: 0.4;
+    }
     .title {
         top: 50%;
-        left: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 70px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 35px;
+          }
     }
   }
 }
