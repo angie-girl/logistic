@@ -1,13 +1,5 @@
 .card {
-    // overflow: hidden;
-    // .card-img-top {
-    //     overflow: hidden;
-    //     max-height: 220px;
-    // }
-    // .card-img-top:hover {
-    //     transform: scale(1.5)
-    // }
-    .wrap-img{
+    .wrap-img {
         overflow: hidden;
         padding: 0;
         img {
@@ -20,8 +12,9 @@
             z-index: 0;
         }
     }
-    .second-title {
-        font-weight: bold;
-        font-size: 50px;
+    .card-title {
+        @media screen and (max-width: 370px) {
+            font-size: 22px;
+        }
     }
 }
