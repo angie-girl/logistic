@@ -2,13 +2,83 @@
 <app-banner [title]="'Dla klienta'" [bannerUrl]="'../../../assets/images/dla-klienta.jpg'"></app-banner>
 <section class="bg-light pt-5 pb-md-5">
     <div class="container">
-      <div class="py-4">
-          <div class="my-4">
-              <h2>Lorem Ipsum</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-      </div>
+        <h1 class="my-4">Dokumenty do pobrania</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 pt-5">
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/Certyfikat_kompetencji_zawodowych.pdf','Certyfikat kompetencji zawodowych')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">Certyfikat kompetencji zawodowych</h5>
+                          <p class="text-muted">Rozmiar pliku: 12,1Mb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/Licencja_spedycyjna.pdf','Licencja spedycjna')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">Licencja na wykonanie transportu drogowego</h5>
+                          <p class="text-muted">Rozmiar pliku: 2,2Mb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/Polisa_ubezpieczenia_Warta.pdf','Polisa ubezpieczenia Warta')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">Polisa ubezpieczenia Warta</h5>
+                          <p class="text-muted">Rozmiar pliku: 99Kb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/CEIDG.pdf','CEIDG')"  class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">CEIDG</h5>
+                          <p class="text-muted">Rozmiar pliku: 90Kb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/RODO.docx','RODO')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">RODO</h5>
+                          <p class="text-muted">Rozmiar pliku: 13Kb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
   </div>
 </section>
