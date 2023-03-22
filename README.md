@@ -11,11 +11,8 @@
 List of technologies and version used in this project
 
 - [Angular v14](https://angular.io/docs)
-- [Ionic Capacitor v3](https://capacitorjs.com/docs)
 - [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- [Ionic CLI](https://ionicframework.com/docs/cli)
-- [Firebase](https://firebase.google.com/docs)
-- [Angular Fire](https://www.npmjs.com/package/@angular/fire)
+- [Angular CLI](https://angular.io/cli)
 
 ## First steps
 
@@ -34,16 +31,6 @@ To serve application on local environment:
 
     ng serve -o
 
-To see realtime changes inside your browser, and your testing device or emulator simultaneously use
-
-    ionic cap run {platform} -l --external
-
-and follow directions that flow.
-
-To run application only on the mobile device you can use:
-
-    npx cap run {platform}
-
 ## Mobile development builds
 
 To build application and test native API on a mobile device use:
@@ -51,16 +38,3 @@ To build application and test native API on a mobile device use:
     ng build && npx cap sync {platform} && npx cap open {platform}
 
 {platofrm} beeing android or ios.
-
-## Publication
-
-To publish application on development environment use:
-
-    ng build --prod && firebase deploy --only=hosting
-
-## Useful links
-
-To generate splash screen and app icon easily use link below for cordova-res package
-https://capacitorjs.com/docs/guides/splash-screens-and-icons
-
-## Useful commands
