@@ -1,0 +1,84 @@
+<app-header></app-header>
+<app-banner [title]="'Dla klienta'" [bannerUrl]="'../../../assets/images/dla-klienta.jpg'"></app-banner>
+<section class="bg-light pt-5 pb-md-5">
+    <div class="container">
+        <h1 class="my-4">Dokumenty do pobrania</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 pt-5">
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/Certyfikat_kompetencji_zawodowych.pdf','Certyfikat_kompetencji_zawodowych')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">Certyfikat kompetencji zawodowych</h5>
+                          <p class="text-muted">Rozmiar pliku: 12,1Mb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/Licencja_spedycyjna.pdf','Licencja_spedycyjna')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">Licencja spedycyjna</h5>
+                          <p class="text-muted">Rozmiar pliku: 2,2Mb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/Polisa_ubezpieczenia_Warta.pdf','Polisa_ubezpieczenia_Warta')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">Polisa ubezpieczenia Warta</h5>
+                          <p class="text-muted">Rozmiar pliku: 99Kb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/CEIDG.pdf','CEIDG')"  class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">CEIDG</h5>
+                          <p class="text-muted">Rozmiar pliku: 90Kb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-3">
+                <div (click)="downloadPdf('../../../assets/files/RODO.docx','RODO')" class="card rounded-0 border-0 mb-3">
+                    <div class="row g-0">
+                      <div class="wrap-img align-self-center col-3 col-sm-4">
+                        <img src="../../../assets/images/downoload.png" class="img-fluid rounded-0 p-2 p-sm-3" alt="downoload">
+                      </div>
+                      <div class="col-9 col-sm-8">
+                        <div class="card-body px-4">
+                          <h5 class="card-title fw-light mb-3">RODO</h5>
+                          <p class="text-muted">Rozmiar pliku: 13Kb</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+  </div>
+</section>

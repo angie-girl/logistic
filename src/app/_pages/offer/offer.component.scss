@@ -1,0 +1,20 @@
+.card {
+    .wrap-img {
+        overflow: hidden;
+        padding: 0;
+        img {
+            transition-duration: 2s;
+            margin: 0 auto;
+            display: block;
+        }
+        img:hover {
+            transform: scale(1.2);
+            z-index: 0;
+        }
+    }
+    .card-title {
+        @media screen and (max-width: 370px) {
+            font-size: 22px;
+        }
+    }
+}
